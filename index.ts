@@ -38,7 +38,7 @@ export class googleautocomplete
     state: ComponentFramework.Dictionary,
     container: HTMLDivElement
   ): void {
-    const apikey = "AIzaSyCPYJy61KGG1xhUmFQMANhJogv6J66lppI";
+    const apikey = "your_api_key";
 
     context.mode.trackContainerResize(true);
 
