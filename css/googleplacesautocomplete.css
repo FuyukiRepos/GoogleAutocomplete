@@ -1,0 +1,24 @@
+.addressAutocomplete {
+  line-height: 2.5rem;
+  height: 30px;
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid RGBA(166, 166, 166, 1);
+  color: #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1px;
+  outline: none;
+  font-size: 13px;
+  font-style: "Segoe UI", "Segoe UI Web (West European)", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.addressAutocomplete:focus,
+.addressAutocomplete:hover,
+.addressAutocomplete:active {
+  background-color: RGBA(217, 235, 250, 1);
+  border-color: RGBA(166, 166, 166, 1);
+  border: 1px solid RGBA(166, 166, 166, 1);
+}

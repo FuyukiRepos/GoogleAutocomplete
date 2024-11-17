@@ -1,0 +1,19 @@
+<?xml version="1.4" encoding="utf-8" ?>
+<manifest>
+  <control namespace="googleautocomplete" constructor="googleautocomplete" version="1.4.0" display-name-key="googleautocomplete" description-key="Address autocompletion with Google Places API" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="fulladdress" display-name-key="fulladdress" description-key="fulladdress" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="label" display-name-key="label" description-key="label" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="state" display-name-key="state" description-key="state" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="coordinates" display-name-key="coordinates" description-key="coordinates" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="closestdepotBFG" display-name-key="closestdepotBFG" description-key="closestdepotBFG" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="closestdepotBCD" display-name-key="closestdepotBCD" description-key="closestdepotBCD" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="raillocation" display-name-key="raillocation" description-key="raillocation" of-type="SingleLine.Text" usage="bound" required="false" /> 
+    <property name="labeltype" display-name-key="labeltype" description-key="labeltype" of-type="SingleLine.Text" usage="bound" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/googleplacesautocomplete.css" order="1"/>
+    </resources>
+  </control>
+</manifest>
